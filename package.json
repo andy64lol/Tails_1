@@ -1,0 +1,22 @@
+{
+  "name": "tails-1",
+  "version": "1.0.0",
+  "description": "A simple NLP AI model using brain.js.",
+  "main": "Tails_1.js",
+  "scripts": {
+    "start": "node Tails_1.js"
+  },
+  "keywords": [
+    "nlp",
+    "ai",
+    "brain.js",
+    "chatbot",
+    "javascript"
+  ],
+  "author": "Andy",
+  "license": "MIT",
+  "dependencies": {
+    "brain.js": "1.6.1",
+    "compromise": "^14.14.4"
+  }
+}
