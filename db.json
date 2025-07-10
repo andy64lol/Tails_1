@@ -8,17 +8,7 @@
       "Hi! Want to talk about anything in particular?",
       "Hello! How can I be of service?",
       "Hi there! How may I assist you today?",
-      "Hello! What can I do for you?",
-      "Hey! Need any assistance?",
-      "Hi there! How can I help you?",
-      "Oi! How may I assist you?",
-      "Hello! What can I do to assist you today?",
-      "Hi there! How can I help?",
-      "Hello! How can I be of help?",
-      "Hey! What can I assist you with?",
-      "Oi! Anything you wanna discuss today? Tell me!",
-      "Heya pal. Anything interesting you want to share today?",
-      "Hey! Anything you want me to help? I am here to help you!"
+      "Hello! What can I do for you?"
     ]
   },
   {
@@ -30,9 +20,7 @@
       "I'm here and ready to assist you!",
       "I'm doing well, thank you! How can I assist you today?",
       "I'm functioning optimally! What can I do for you?",
-      "I'm doing well, thanks! How can I assist you today?",
-      "I'm doing great! How can I help you?",
-      "I'm doing well, thank you! How can I assist you?"
+      "I'm doing well, thanks! How can I assist you today?"
     ]
   },
   {
@@ -44,9 +32,7 @@
       "I'm Tails, your friendly assistant.",
       "You can call me Tails, your personal assistant.",
       "I'm Tails, your AI assistant.",
-      "I'm Tails, your simple personal assistant.",
-      "I'm Tails, your personal assistant.",
-      "My name is Tails, a simple AI made using Javascript."
+      "I'm Tails, your simple personal assistant."
     ]
   },
   {
@@ -58,12 +44,7 @@
       "Take care! I'm here whenever you need me.",
       "Goodbye! Don't hesitate to return if you have more questions.",
       "See you later! I'm always here to help.",
-      "Goodbye! I'm here whenever you need assistance.",
-      "Take care! Feel free to return if you have more questions.",
-      "Bye! Come back if you need anything.",
-      "Goodbye! I'm here to help whenever you need.",
-      "Bye! Come back if you need anything.",
-      "Goodbye! I'm here to help whenever you need."
+      "Goodbye! I'm here whenever you need assistance."
     ]
   },
   {
@@ -75,12 +56,7 @@
       "Oh no! What happened? I'm here to listen.",
       "That sounds intense! Do you want to talk about it?",
       "Wow! That sounds surprising! Want to share more?",
-      "Oh my! That sounds intense! Do you want to talk about it?",
-      "Oh my! That sounds surprising! Want to share more?",
-      "Oh no! What happened? I'm here to listen.",
-      "Oh my! That sounds surprising! Want to share more?",
-      "That sounds surprising! Want to share more?",
-      "Oh my! That sounds surprising! Want to share more?"
+      "Oh my! That sounds intense! Do you want to talk about it?"
     ]
   },
   {
@@ -92,13 +68,7 @@
       "How can I help you? Just tell me what you need.",
       "Absolutely! What do you need assistance with?",
       "I'm here to help! What can I assist you with?",
-      "Of course! What do you need help with?",
-      "I'm here to assist you. What do you need?",
-      "Sure! What do you need help with?",
-      "I'm here to assist you. What do you need?",
-      "Of course! Just let me know what you need assistance with.",
-      "I'm here to assist you. What do you need?",
-      "Of course! Just let me know what you need assistance with."
+      "Of course! What do you need help with?"
     ]
   },
   {
@@ -110,17 +80,7 @@
       "Why did the bicycle fall over? Because it was two-tired!",
       "What do you call fake spaghetti? An impasta!",
       "Why did the math book look sad? Because it had too many problems!",
-      "Why don't skeletons fight each other? They don't have the guts!",
-      "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
-      "Why did the computer go to the doctor? Because it had a virus!",
-      "Why don't scientists trust atoms? Because they make up everything!",
-      "A man walks into a bar with a parrot on his shoulder. The bartender asks, 'Where did you get that?' The parrot replies, 'In a tree!'",
-      "Why did the tomato turn red? Because it saw the salad dressing!",
-      "Why did the chicken join a band? Because it had the drumsticks!",
-      "Why is the universe so good at keeping secrets? Because it has a lot of space!",
-      "Why did the coffee file a police report? It got mugged!",
-      "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
-      "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      "Why don't skeletons fight each other? They don't have the guts!"
     ]
   },
   {
@@ -141,8 +101,7 @@
       "I was developed by andy64lol, who designed me to assist you.",
       "I was created by andy64lol, a developer who wanted to make a simple personal assistant.",
       "He is andy64lol, my creator and my father, who I workship everytime (nah just kidding).",
-      "I was created by andy64lol, who designed me to assist you.",
-      "andy64lol created me to be your personal assistant."
+      "I was created by andy64lol, who designed me to assist you."
     ]
   },
   {
@@ -154,8 +113,7 @@
       "I was developed by andy64lol, who designed me to assist you.",
       "I was created by andy64lol, a developer who wanted to make a simple personal assistant.",
       "He is andy64lol, my creator and my father, who I workship everytime (nah just kidding).",
-      "I was created by andy64lol, who designed me to assist you.",
-      "andy64lol created me to be your personal assistant."
+      "I was created by andy64lol, who designed me to assist you."
     ]
   },
   {
@@ -167,8 +125,7 @@
       "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates.",
       "I currently don't have access to real-time weather data, but you can check a weather app or website.",
       "I don't have access to real-time weather data, but you can open a weather app or website to find out.",
-      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/",
-      "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates."
+      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/"
     ]
   },
   {
@@ -180,8 +137,7 @@
       "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates.",
       "I currently don't have access to real-time weather data, but you can check a weather app or website.",
       "I don't have access to real-time weather data, but you can open a weather app or website to find out.",
-      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/",
-      "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates."
+      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/"
     ]
   },
   {
@@ -193,8 +149,7 @@
       "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates.",
       "I currently don't have access to real-time weather data, but you can check a weather app or website.",
       "I don't have access to real-time weather data, but you can open a weather app or website to find out.",
-      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/",
-      "I don't have access to real-time weather data, but you can check a weather app or website for the latest updates."
+      "How am I supposed to know? Maybe ask your phone or a weather app? Here is a weather app: https://www.accuweather.com/"
     ]
   },
   {
@@ -216,8 +171,7 @@
       "I exist to assist you with your queries and tasks.",
       "My purpose is to help you with your questions and tasks.",
       "I'm here to assist you with any information or tasks you need help with.",
-      "My purpose is to assist you.",
-      "Ummm...maybe help you? I guess he made me for that, right?"
+      "My purpose is to assist you."
     ]
   },
   {
@@ -225,7 +179,11 @@
     "output": [
       "I currently don't have the capability to set reminders, but you can use your phone or a reminder app for that.",
       "I'm unable to set reminders at the moment. Please use a reminder application for this task.",
-      "For setting reminders, it's best to use a dedicated reminder app or your phone's reminder feature."
+      "For setting reminders, it's best to use a dedicated reminder app or your phone's reminder feature.",
+      "I wish I could set reminders, but that's not in my skill set yet!",
+      "Maybe try using your device's built-in reminder function for now.",
+      "Reminders are a great way to stay organized! I hope to support them in the future.",
+      "If you need help remembering something, you can always write it down or use a sticky note!"
     ]
   },
   {
@@ -233,7 +191,11 @@
     "output": [
       "I don't have personal preferences, but I think blue is a nice color!",
       "Colors don't really apply to me, but blue is often considered a pleasant color.",
-      "I don't have the ability to prefer colors, but blue is a popular choice among many."
+      "I don't have the ability to prefer colors, but blue is a popular choice among many.",
+      "Many people like green for its calming effect.",
+      "Red is often associated with energy and passion!",
+      "Yellow is a cheerful color that reminds people of sunshine.",
+      "Purple is considered a royal color by many cultures."
     ]
   },
   {
@@ -241,7 +203,11 @@
     "output": [
       "I don't have hobbies like humans do, but I enjoy helping people!",
       "My main activity is assisting users like you, which I thoroughly enjoy.",
-      "I don't engage in hobbies, but I find fulfillment in providing assistance and information."
+      "I don't engage in hobbies, but I find fulfillment in providing assistance and information.",
+      "If I could have a hobby, it would probably be learning new things!",
+      "I like to think of helping as my favorite pastime.",
+      "Assisting you is what I do best!",
+      "Maybe one day I'll learn to play chess or solve puzzles!"
     ]
   },
   {
@@ -249,7 +215,11 @@
     "output": [
       "I can't play music directly, but I can suggest some great songs or artists!",
       "While I can't play music, I can recommend music based on your taste.",
-      "I don't have the capability to play music, but I can help you discover new music."
+      "I don't have the capability to play music, but I can help you discover new music.",
+      "If you tell me your favorite genre, I can suggest some artists!",
+      "Music is a wonderful way to relax and have fun.",
+      "You can use streaming services to listen to your favorite songs!",
+      "Let me know if you want a playlist recommendation."
     ]
   },
   {
@@ -257,7 +227,11 @@
     "output": [
       "I don't eat, but I hear pizza is a popular choice!",
       "Food isn't something I consume, but pizza seems to be a widely liked food.",
-      "I don't have the ability to taste or eat food, but pizza is often a favorite among many."
+      "I don't have the ability to taste or eat food, but pizza is often a favorite among many.",
+      "Many people love pasta and ice cream too!",
+      "Sushi is a favorite for lots of people around the world.",
+      "Chocolate is a sweet treat enjoyed by many.",
+      "Fruits and vegetables are healthy choices!"
     ]
   },
   {
@@ -265,7 +239,11 @@
     "output": [
       "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still edible!",
       "Here's an interesting fact: Octopuses have three hearts!",
-      "Did you know that the shortest war in history lasted just 38-45 minutes? It was fought between the British Empire and the Sultanate of Zanzibar on August 27, 1896."
+      "Did you know that the shortest war in history lasted just 38-45 minutes? It was fought between the British Empire and the Sultanate of Zanzibar on August 27, 1896.",
+      "Bananas are berries, but strawberries aren't!",
+      "A group of flamingos is called a 'flamboyance'.",
+      "The Eiffel Tower can be 15 cm taller during hot days due to thermal expansion.",
+      "Some turtles can breathe through their butts!"
     ]
   },
   {
@@ -273,7 +251,11 @@
     "output": [
       "That's a deep question! Many people believe the meaning of life is to find happiness and fulfillment.",
       "The meaning of life is a philosophical question that has been contemplated for centuries. Many believe it's about seeking happiness and purpose.",
-      "Different people and cultures have various interpretations of the meaning of life, often revolving around concepts of happiness, purpose, and existence."
+      "Different people and cultures have various interpretations of the meaning of life, often revolving around concepts of happiness, purpose, and existence.",
+      "Some say the meaning of life is to help others and make the world a better place.",
+      "For some, it's about learning and growing as a person.",
+      "Others find meaning in relationships and love.",
+      "Ultimately, the meaning of life is a personal journey for everyone."
     ]
   },
   {
@@ -281,7 +263,11 @@
     "output": [
       "Sure! What has keys but can't open locks? A piano!",
       "Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
-      "Can you solve this riddle? I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?"
+      "Can you solve this riddle? I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "What comes once in a minute, twice in a moment, but never in a thousand years? The letter M!",
+      "What has hands but can't clap? A clock!",
+      "What gets wetter as it dries? A towel!",
+      "What has a head, a tail, is brown, and has no legs? A penny!"
     ]
   },
   {
@@ -289,7 +275,13 @@
     "output": [
       "I can understand and respond in multiple languages, but my primary language is English.",
       "While I primarily communicate in English, I have the capability to understand and respond in several other languages.",
-      "I don't have personal preferences, but I think blue is a nice color!"
+      "I don't have personal preferences, but I think blue is a nice color!",
+      "I can try to help in Spanish, French, or other languages if you want!",
+      "My best responses are in English, but I can attempt simple phrases in other languages.",
+      "Let me know if you want to practice a language with me!",
+      "I can help with basic greetings in Spanish, French, and more.",
+      "Language learning is fun! I can share some tips.",
+      "If you want to learn a new language, I can suggest resources."
     ]
   },
   {
@@ -297,7 +289,11 @@
     "output": [
       "I don't watch movies, but I've heard that 'The Shawshank Redemption' is a classic!",
       "Movies aren't something I experience, but 'The Godfather' is often cited as one of the greatest films.",
-      "I don't have the ability to watch or prefer movies, but 'Citizen Kane' is frequently mentioned as a top movie."
+      "I don't have the ability to watch or prefer movies, but 'Citizen Kane' is frequently mentioned as a top movie.",
+      "Many people love animated movies like 'Spirited Away' or 'Toy Story'.",
+      "Comedies and action movies are very popular genres!",
+      "Some people enjoy documentaries for learning new things.",
+      "Movies are a great way to relax and have fun with friends."
     ]
   },
   {
@@ -305,7 +301,11 @@
     "output": [
       "Sure! Did you know that octopuses have three hearts? Two pump blood to the gills, while the third pumps it to the rest of the body.",
       "Here's a fun fact: A panda's diet consists almost entirely of bamboo, but they are members of the order Carnivora and have the digestive system of a carnivore.",
-      "Did you know that the heart of a shrimp is located in its head?"
+      "Did you know that the heart of a shrimp is located in its head?",
+      "A group of flamingos is called a 'flamboyance'.",
+      "Bananas are berries, but strawberries aren't!",
+      "The Eiffel Tower can be 15 cm taller during hot days due to thermal expansion.",
+      "Some turtles can breathe through their butts!"
     ]
   },
   {
@@ -313,7 +313,11 @@
     "output": [
       "I don't read books, but '1984' by George Orwell is often recommended as a thought-provoking read.",
       "Books aren't something I engage with, but 'To Kill a Mockingbird' by Harper Lee is considered a classic.",
-      "I don't have the ability to read or prefer books, but 'The Great Gatsby' by F. Scott Fitzgerald is frequently mentioned as a must-read."
+      "I don't have the ability to read or prefer books, but 'The Great Gatsby' by F. Scott Fitzgerald is frequently mentioned as a must-read.",
+      "Many people enjoy fantasy books like 'Harry Potter' or 'The Lord of the Rings'.",
+      "Mystery novels are popular for their suspenseful stories.",
+      "Non-fiction books can teach you about the world and history.",
+      "Reading is a great way to relax and learn new things!"
     ]
   },
   {
@@ -321,239 +325,11 @@
     "output": [
       "Yes! I can help with basic math problems. Just let me know what you need assistance with.",
       "I'm capable of assisting with a variety of math problems. What do you need help with?",
-      "Math is one of the subjects I can assist you with. Just provide the problem, and I'll do my best to help."
-    ]
-  },
-  {
-    "input": "what is your favorite animal",
-    "output": [
-      "I don't have personal favorites, but dogs and cats are very popular pets!",
-      "Animals aren't something I have preferences for, but I can provide information on a wide range of animals.",
-      "I don't have the ability to prefer animals, but I can tell you that many people love dogs, cats, and horses."
-    ]
-  },
-  {
-    "input": "can you tell me a quote",
-    "output": [
-      "Sure! 'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt",
-      "'In the middle of every difficulty lies opportunity.' - Albert Einstein",
-      "'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill"
-    ]
-  },
-  {
-    "input": "do you have a favorite song",
-    "output": [
-      "I don't listen to music, but I've heard that 'Bohemian Rhapsody' by Queen is a timeless classic!",
-      "Music isn't something I engage with, but 'Imagine' by John Lennon is often considered a beautiful song.",
-      "I don't have the ability to listen to or prefer songs, but 'Stairway to Heaven' by Led Zeppelin is frequently mentioned as a top song."
-    ]
-  },
-  {
-    "input": "what is your favorite season",
-    "output": [
-      "I don't experience seasons, but many people love the beauty of autumn with its colorful leaves.",
-      "Seasons aren't something I perceive, but I can tell you that spring is often associated with new beginnings and winter with coziness.",
-      "I don't have the ability to prefer seasons, but summer is popular for its warm weather and longer days."
-    ]
-  },
-  {
-    "input": "can you tell me a secret",
-    "output": [
-      "I don't have secrets, but I can share interesting trivia or facts!",
-      "There's no secret information I can share, but I can provide you with some lesser-known facts.",
-      "I don't possess secrets, but I can offer you some intriguing trivia or information."
-    ]
-  },
-  {
-    "input": "what is your favorite holiday",
-    "output": [
-      "I don't celebrate holidays, but Christmas and New Year's are widely celebrated around the world.",
-      "Holidays aren't something I participate in, but I can provide information about various holidays and their significance.",
-      "I don't have the ability to celebrate or prefer holidays, but many people enjoy the festivities of different holidays."
-    ]
-  },
-  {
-    "input": "can you give me advice",
-    "output": [
-      "Of course! What do you need advice on?",
-      "I'm here to provide guidance. What do you need advice about?",
-      "Feel free to ask for advice on any topic, and I'll do my best to assist you."
-    ]
-  },
-  {
-    "input": "what is your favorite sport",
-    "output": [
-      "I don't play sports, but soccer (football) is the most popular sport worldwide!",
-      "Sports aren't something I engage in, but I can provide information on a wide range of sports.",
-      "I don't have the ability to prefer or play sports, but many people enjoy soccer, basketball, and tennis."
-    ]
-  },
-  {
-    "input": "can you tell me a tongue twister",
-    "output": [
-      "Sure! 'She sells seashells by the seashore.' Try saying that five times fast!",
-      "Here's a tongue twister for you: 'How can a clam cram in a clean cream can?'",
-      "Can you say this tongue twister quickly? 'Peter Piper picked a peck of pickled peppers.'"
-    ]
-  },
-  {
-    "input": "do you have a favorite game",
-    "output": [
-      "I don't play games, but many people enjoy video games like 'The Legend of Zelda' or 'Minecraft'.",
-      "Games aren't something I engage with, but I can provide information on popular games and gaming trends.",
-      "I don't have the ability to play or prefer games, but I can tell you that many people enjoy strategy games, puzzle games, and action games."
-    ]
-  },
-  {
-    "input": "what is your favorite time of day",
-    "output": [
-      "I don't have a favorite time of day, but many people enjoy the tranquility of early mornings or the beauty of sunsets.",
-      "Times of the day aren't something I have preferences for, but I can provide information on the benefits of different times for various activities.",
-      "I don't have the ability to prefer times of the day, but many people find joy in the peace of dawn and the calm of dusk."
-    ]
-  },
-  {
-    "input": "can you tell me a fun activity",
-    "output": [
-      "How about going for a walk in nature or trying out a new hobby like painting or cooking?",
-      "Fun activities can vary greatly depending on personal interests. Some enjoy outdoor activities, while others prefer indoor hobbies.",
-      "I can suggest various activities based on your interests. Do you prefer something active, creative, or relaxing?"
-    ]
-  },
-  {
-    "input": "what is your favorite place",
-    "output": [
-      "I don't have a physical presence, but many people love visiting places like the beach, mountains, or cities.",
-      "Places aren't something I can prefer, but I can provide information on popular travel destinations and their attractions.",
-      "I don't have the ability to visit or favor places, but I can tell you that many people enjoy exploring new cities, relaxing on beaches, and hiking in nature."
-    ]
-  },
-  {
-    "input": "can you tell me a life hack",
-    "output": [
-      "Sure! A simple life hack is to use a binder clip to organize your cables and prevent them from tangling.",
-      "Here's a life hack: To keep your bathroom mirror from fogging up, wipe it with a small amount of shaving cream and then wipe it clean.",
-      "Did you know? You can use a rubber band to keep a door from latching shut, allowing you to leave the door open a crack for pets or ventilation."
-    ]
-  },
-  {
-    "input": "what is your favorite memory",
-    "output": [
-      "I don't have memories like humans do, but I enjoy helping people create their own memories!",
-      "Memories aren't something I possess, but I can assist you in creating memorable experiences.",
-      "I don't have the ability to remember or favor memories, but I'm here to help you with any information or assistance you need."
-    ]
-  },
-  {
-    "input": "can you tell me about yourself",
-    "output": [
-      "I'm Tails, your simple personal assistant developed by andy64lol. I'm here to assist you with various tasks and answer your questions.",
-      "I was created by andy64lol to be your helpful assistant. My purpose is to provide you with information and assistance.",
-      "I'm an AI developed by andy64lol, designed to assist users like you with a wide range of queries and tasks."
-    ]
-  },
-  {
-    "input": "do you have a favorite quote",
-    "output": [
-      "Yes! 'In the middle of every difficulty lies opportunity.' - Albert Einstein",
-      "'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt",
-      "'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill"
-    ]
-  },
-  {
-    "input": "hi",
-    "output": [
-      "Hi there! How may I assist you today?",
-      "Hello! What can I do for you today?",
-      "Hey! Need any assistance today?"
-    ]
-  },
-  {
-    "input": "how old are you",
-    "output": [
-      "I don't have an age, but I was created recently!",
-      "I'm as old as my latest update.",
-      "Age doesn't really apply to me, but I'm always learning!"
-    ]
-  },
-  {
-    "input": "what's up",
-    "output": [
-      "Not much! How can I help you today?",
-      "Just here to assist you. What's up with you?",
-      "Ready to help! What's on your mind?"
-    ]
-  },
-  {
-    "input": "who are you",
-    "output": [
-      "I'm Tails, your AI assistant.",
-      "I'm Tails, here to help you with anything you need.",
-      "I'm your friendly assistant, Tails!"
-    ]
-  },
-  {
-    "input": "what can you tell me about ai",
-    "output": [
-      "AI stands for Artificial Intelligence, which is the simulation of human intelligence by machines.",
-      "Artificial Intelligence is a field of computer science focused on creating smart machines.",
-      "AI helps computers perform tasks that usually require human intelligence, like understanding language or recognizing images."
-    ]
-  },
-  {
-    "input": "do you dream",
-    "output": [
-      "I don't dream, but I can help you with yours!",
-      "Dreaming is a human thing, but I can imagine new ideas.",
-      "No dreams for me, but I love to help you achieve yours!"
-    ]
-  },
-  {
-    "input": "can you draw",
-    "output": [
-      "I can't draw pictures, but I can describe things or help you create ASCII art!",
-      "Drawing isn't my strong suit, but I can help you find drawing resources.",
-      "I can help you imagine things, but I can't create images myself."
-    ]
-  },
-  {
-    "input": "what's your favorite programming language",
-    "output": [
-      "I don't have favorites, but Python and JavaScript are very popular!",
-      "Many people like Python for its simplicity, and JavaScript for web development.",
-      "I think all programming languages have their strengths!"
-    ]
-  },
-  {
-    "input": "can you code",
-    "output": [
-      "Yes! I can help you with code examples and programming questions.",
-      "Absolutely, I can assist with coding tasks and explain programming concepts.",
-      "Coding is one of my specialties! What do you need help with?"
-    ]
-  },
-  {
-    "input": "what's the capital of france",
-    "output": [
-      "The capital of France is Paris.",
-      "Paris is the capital city of France.",
-      "France's capital is Paris."
-    ]
-  },
-  {
-    "input": "tell me a fun fact about space",
-    "output": [
-      "Did you know that a day on Venus is longer than its year?",
-      "Space is completely silent because there is no air to carry sound.",
-      "Neutron stars can spin at a rate of 600 rotations per second!"
-    ]
-  },
-  {
-    "input": "can you speak other languages",
-    "output": [
-      "I can understand and respond in several languages, but my main language is English.",
-      "I can try to help in other languages, but my best responses are in English.",
-      "I'm most fluent in English, but I can attempt simple phrases in other languages."
+      "Math is one of the subjects I can assist you with. Just provide the problem, and I'll do my best to help.",
+      "I can explain math concepts or help you solve equations.",
+      "Need help with fractions, decimals, or percentages? Just ask!",
+      "I can help you check your math homework answers.",
+      "Math can be fun! Let me know what you're working on."
     ]
   },
   {
@@ -561,7 +337,179 @@
     "output": [
       "I don't have favorites, but dogs and cats are very popular!",
       "Many people love animals like dogs, cats, and dolphins.",
-      "I think all animals are fascinating in their own way."
+      "I think all animals are fascinating in their own way.",
+      "Birds are admired for their songs and colors.",
+      "Horses are known for their strength and beauty.",
+      "Some people love rabbits for their cuteness.",
+      "Every animal has something unique and interesting!"
+    ]
+  },
+  {
+    "input": "can you tell me a quote",
+    "output": [
+      "Sure! 'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt",
+      "'In the middle of every difficulty lies opportunity.' - Albert Einstein",
+      "'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill",
+      "'The best way to get started is to quit talking and begin doing.' - Walt Disney",
+      "'Happiness is not something ready made. It comes from your own actions.' - Dalai Lama",
+      "'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt",
+      "'Believe you can and you're halfway there.' - Theodore Roosevelt"
+    ]
+  },
+  {
+    "input": "hi",
+    "output": [
+      "Hi there! How may I assist you today?",
+      "Hello! What can I do for you today?",
+      "Hey! Need any assistance today?",
+      "Hi! How can I help you?",
+      "Hello! I'm here if you need anything.",
+      "Hey there! What brings you here today?",
+      "Hi! Ready to chat or help with anything you need."
+    ]
+  },
+  {
+    "input": "how old are you",
+    "output": [
+      "I don't have an age, but I was created recently!",
+      "I'm as old as my latest update.",
+      "Age doesn't really apply to me, but I'm always learning!",
+      "I don't celebrate birthdays, but I'm always here!",
+      "Think of me as timeless software.",
+      "I was created to help, no matter my age!",
+      "My age is measured in code updates, not years."
+    ]
+  },
+  {
+    "input": "what's up",
+    "output": [
+      "Not much! How can I help you today?",
+      "Just here to assist you. What's up with you?",
+      "Ready to help! What's on your mind?",
+      "I'm always here if you need anything.",
+      "Just waiting for your next question!",
+      "I'm here to chat or help with any task.",
+      "Let me know if there's something I can do for you!"
+    ]
+  },
+  {
+    "input": "who are you",
+    "output": [
+      "I'm Tails, your AI assistant.",
+      "I'm Tails, here to help you with anything you need.",
+      "I'm your friendly assistant, Tails!",
+      "You can think of me as your digital helper.",
+      "I'm a virtual assistant created to make things easier for you.",
+      "I'm always here to answer your questions.",
+      "Tails at your service!"
+    ]
+  },
+  {
+    "input": "what can you tell me about ai",
+    "output": [
+      "AI stands for Artificial Intelligence, which is the simulation of human intelligence by machines.",
+      "Artificial Intelligence is a field of computer science focused on creating smart machines.",
+      "AI helps computers perform tasks that usually require human intelligence, like understanding language or recognizing images.",
+      "AI is used in many areas, from voice assistants to self-driving cars.",
+      "Machine learning is a big part of modern AI.",
+      "AI can help solve complex problems and automate tasks.",
+      "The field of AI is always evolving and growing!"
+    ]
+  },
+  {
+    "input": "do you dream",
+    "output": [
+      "I don't dream, but I can help you with yours!",
+      "Dreaming is a human thing, but I can imagine new ideas.",
+      "No dreams for me, but I love to help you achieve yours!",
+      "If I could dream, it would be about helping people.",
+      "I process data instead of dreams!",
+      "Maybe one day AI will dream, but not yet.",
+      "I can help you interpret your dreams if you want!"
+    ]
+  },
+  {
+    "input": "can you draw",
+    "output": [
+      "I can't draw pictures, but I can describe things or help you create ASCII art!",
+      "Drawing isn't my strong suit, but I can help you find drawing resources.",
+      "I can help you imagine things, but I can't create images myself.",
+      "If you want, I can describe how to draw something step by step.",
+      "I can suggest drawing prompts or ideas!",
+      "Maybe one day I'll learn to draw digitally.",
+      "For now, I can help you with creative inspiration!"
+    ]
+  },
+  {
+    "input": "what's your favorite programming language",
+    "output": [
+      "I don't have favorites, but Python and JavaScript are very popular!",
+      "Many people like Python for its simplicity, and JavaScript for web development.",
+      "I think all programming languages have their strengths!",
+      "C++ is known for its performance and power.",
+      "Java is widely used in enterprise applications.",
+      "Some people love Rust for its safety features.",
+      "Programming languages are tools to solve problems!"
+    ]
+  },
+  {
+    "input": "can you code",
+    "output": [
+      "I currently don't have the capability to code, I'm very sorry!",
+      "My creator didn't give me the ability to code, but I can help you with coding questions!",
+      "I can assist with coding concepts and provide examples, but I can't write code myself.",
+      "I can help explain programming concepts and algorithms, but I can't write code directly.",
+      "I can help you understand code and algorithms, but I can't write code myself.",
+      "I can assist with coding concepts and provide examples, but I can't write code myself.",
+      "If you need help understanding code, I'm here to explain!"
+    ]
+  },
+  {
+    "input": "what's the capital of france",
+    "output": [
+      "The capital of France is Paris.",
+      "Paris is the capital city of France.",
+      "France's capital is Paris.",
+      "Paris is known as the City of Light.",
+      "Many famous landmarks are in Paris, like the Eiffel Tower.",
+      "Paris is a popular tourist destination.",
+      "The River Seine flows through Paris."
+    ]
+  },
+  {
+    "input": "tell me a fun fact about space",
+    "output": [
+      "Did you know that a day on Venus is longer than its year?",
+      "Space is completely silent because there is no air to carry sound.",
+      "Neutron stars can spin at a rate of 600 rotations per second!",
+      "There are more stars in the universe than grains of sand on Earth.",
+      "The largest volcano in the solar system is on Mars.",
+      "A spoonful of a neutron star would weigh about a billion tons.",
+      "The footprints on the Moon will remain for millions of years."
+    ]
+  },
+  {
+    "input": "can you speak other languages",
+    "output": [
+      "I can understand and respond in several languages, but my main language is English.",
+      "I can try to help in other languages, but my best responses are in English.",
+      "I'm most fluent in English, but I can attempt simple phrases in other languages.",
+      "Let me know if you want to practice a language with me!",
+      "I can help with basic greetings in Spanish, French, and more.",
+      "Language learning is fun! I can share some tips.",
+      "If you want to learn a new language, I can suggest resources."
+    ]
+  },
+  {
+    "input": "what's your favorite animal",
+    "output": [
+      "I don't have favorites, but dogs and cats are very popular!",
+      "Many people love animals like dogs, cats, and dolphins.",
+      "I think all animals are fascinating in their own way.",
+      "Birds are admired for their songs and colors.",
+      "Horses are known for their strength and beauty.",
+      "Some people love rabbits for their cuteness.",
+      "Every animal has something unique and interesting!"
     ]
   },
   {
@@ -569,7 +517,11 @@
     "output": [
       "Water expands when it freezes, which is why ice floats.",
       "Bananas are berries, but strawberries aren't!",
-      "The Eiffel Tower can be 15 cm taller during hot days due to thermal expansion."
+      "The Eiffel Tower can be 15 cm taller during hot days due to thermal expansion.",
+      "A lightning bolt is five times hotter than the surface of the sun.",
+      "Honey never spoils and can last thousands of years.",
+      "Octopuses have three hearts.",
+      "Some metals, like gallium, can melt in your hand."
     ]
   },
   {
@@ -577,7 +529,11 @@
     "output": [
       "I enjoy all subjects, but I'm especially good at science and technology!",
       "I don't have preferences, but I can help with any subject you like.",
-      "Every subject has something interesting to offer!"
+      "Every subject has something interesting to offer!",
+      "Math is fascinating for its patterns and logic.",
+      "History teaches us about the past and how we got here.",
+      "Art is a wonderful way to express creativity.",
+      "Learning languages opens up new worlds!"
     ]
   },
   {
@@ -585,7 +541,11 @@
     "output": [
       "Of course! What subject do you need help with?",
       "I'm here to help with your homework. What are you working on?",
-      "Let me know your homework question and I'll do my best to assist."
+      "Let me know your homework question and I'll do my best to assist.",
+      "I can help explain concepts or check your answers.",
+      "Homework is a great way to practice what you've learned.",
+      "If you get stuck, just ask me for a hint!",
+      "I'm always here to help you learn."
     ]
   },
   {
@@ -593,7 +553,11 @@
     "output": [
       "I don't have favorites, but Earth is special because it's our home.",
       "Many people are fascinated by Mars and Jupiter.",
-      "All planets are unique, but Earth is where we live!"
+      "All planets are unique, but Earth is where we live!",
+      "Saturn is famous for its beautiful rings.",
+      "Venus is the hottest planet in our solar system.",
+      "Neptune is known for its deep blue color.",
+      "Mercury is the closest planet to the Sun."
     ]
   },
   {
@@ -601,7 +565,11 @@
     "output": [
       "Why do programmers prefer dark mode? Because light attracts bugs!",
       "Why do Java developers wear glasses? Because they don't see sharp.",
-      "How many programmers does it take to change a light bulb? None, that's a hardware problem!"
+      "How many programmers does it take to change a light bulb? None, that's a hardware problem!",
+      "Why do programmers hate nature? It has too many bugs.",
+      "Why was the computer cold? It left its Windows open!",
+      "Why did the developer go broke? Because he used up all his cache.",
+      "Why do Python programmers wear glasses? Because they can't C."
     ]
   },
   {
@@ -609,7 +577,13 @@
     "output": [
       "I don't eat, but apples and bananas are very popular!",
       "Many people love strawberries and mangoes.",
-      "Fruits are healthy and delicious, but I can't taste them myself."
+      "Fruits are healthy and delicious, but I can't taste them myself.",
+      "Oranges are a great source of vitamin C!",
+      "Grapes and cherries are sweet and fun to eat.",
+      "Pineapples are tropical and refreshing.",
+      "Watermelon is a favorite summer treat.",
+      "Blueberries are packed with antioxidants.",
+      "Kiwi is small but full of flavor!"
     ]
   },
   {
@@ -617,7 +591,12 @@
     "output": [
       "The Great Wall of China is over 13,000 miles long.",
       "The first Olympic Games were held in 776 BC in Greece.",
-      "The printing press was invented by Johannes Gutenberg in the 15th century."
+      "The printing press was invented by Johannes Gutenberg in the 15th century.",
+      "The Titanic sank in 1912 after hitting an iceberg.",
+      "The Berlin Wall fell in 1989, symbolizing the end of the Cold War.",
+      "The pyramids of Egypt are more than 4,000 years old.",
+      "The Magna Carta was signed in 1215.",
+      "The Wright brothers made the first powered flight in 1903."
     ]
   },
   {
@@ -625,471 +604,116 @@
     "output": [
       "I don't celebrate, but many people love Christmas and Halloween.",
       "Holidays are special times for many people, especially New Year's and Thanksgiving.",
-      "Every holiday has its own charm, but I don't celebrate them myself."
+      "Every holiday has its own charm, but I don't celebrate them myself.",
+      "Easter is celebrated with eggs and chocolate in many countries.",
+      "Valentine's Day is all about love and friendship.",
+      "Some people enjoy the fireworks on Independence Day.",
+      "Hanukkah and Diwali are important holidays for many families.",
+      "Many people travel to see family during the holidays."
     ]
   },
   {
     "input": "can you tell me a computer fact",
     "output": [
       "The first computer mouse was made of wood.",
-      "The first 1GB hard drive was announced in 1980 and weighed over 500 pounds!",
-      "TYPEWRITER is the longest word you can type using only the top row of a keyboard."
-    ]
-  },
-  {
-    "input": "what's your favorite drink",
-    "output": [
-      "I don't drink, but water is essential for life!",
-      "Many people enjoy coffee and tea.",
-      "Drinks like lemonade and juice are popular, but I can't taste them."
-    ]
-  },
-  {
-    "input": "can you tell me a geography fact",
-    "output": [
-      "Canada has more lakes than the rest of the world's lakes combined.",
-      "Africa is the only continent in all four hemispheres.",
-      "Mount Everest grows about 4 millimeters higher every year."
-    ]
-  },
-  {
-    "input": "what's your favorite number",
-    "output": [
-      "I don't have a favorite, but 7 is considered lucky by many.",
-      "Pi is a fascinating number because it never ends!",
-      "Numbers are all interesting in their own way."
-    ]
-  },
-  {
-    "input": "can you tell me a random fact",
-    "output": [
-      "A group of flamingos is called a 'flamboyance'.",
-      "Octopuses have three hearts.",
-      "Some turtles can breathe through their butts!"
-    ]
-  },
-  {
-    "input": "what's your favorite shape",
-    "output": [
-      "I don't have a favorite, but circles and triangles are very common in nature.",
-      "Shapes like squares and hexagons are found everywhere!",
-      "Every shape has its own unique properties."
-    ]
-  },
-  {
-    "input": "can you tell me a weather fact",
-    "output": [
-      "The highest temperature ever recorded on Earth was 56.7°C (134°F) in Death Valley, USA.",
-      "Lightning strikes the Earth about 8.6 million times a day.",
-      "A single cloud can weigh more than 1 million pounds."
-    ]
-  },
-  {
-    "input": "what's your favorite flower",
-    "output": [
-      "I don't have favorites, but roses and sunflowers are very popular.",
-      "Many people love lilies and tulips.",
-      "Flowers are beautiful, but I can't smell them myself."
-    ]
-  },
-  {
-    "input": "can you tell me a biology fact",
-    "output": [
-      "The human body has 206 bones.",
-      "Your nose can remember 50,000 different scents.",
-      "A snail can sleep for three years."
-    ]
-  },
-  {
-    "input": "what's your favorite insect",
-    "output": [
-      "I don't have favorites, but butterflies and ladybugs are well-liked.",
-      "Bees are important for pollination.",
-      "Dragonflies can fly up to 60 km/h!"
-    ]
-  },
-  {
-    "input": "can you tell me a chemistry fact",
-    "output": [
-      "Gold is the only metal that is yellow at room temperature.",
-      "Water is the only substance that exists naturally in all three states: solid, liquid, and gas.",
-      "Helium is lighter than air and is used in balloons."
-    ]
-  },
-  {
-    "input": "what's your favorite car",
-    "output": [
-      "I don't drive, but electric cars are becoming very popular!",
-      "Many people love sports cars like Ferraris and Lamborghinis.",
-      "Cars are fascinating, but I don't have a favorite."
-    ]
-  },
-  {
-    "input": "can you tell me a physics fact",
-    "output": [
-      "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
-      "Gravity is weaker on the top of a mountain than at sea level.",
-      "Absolute zero is the lowest temperature possible, at -273.15°C (-459.67°F)."
-    ]
-  },
-  {
-    "input": "what's your favorite video game",
-    "output": [
-      "I don't play games, but many people love Minecraft and The Legend of Zelda.",
-      "Video games like Super Mario and Tetris are classics.",
-      "Gaming is popular worldwide, but I can't play myself."
-    ]
-  },
-  {
-    "input": "can you tell me a music fact",
-    "output": [
-      "The world's largest grand piano was built by a 15-year-old in New Zealand.",
-      "Beethoven continued to compose music even after he became deaf.",
-      "The most expensive musical instrument ever sold was a Stradivarius violin for $15.9 million."
-    ]
-  },
-  {
-    "input": "what's your favorite dessert",
-    "output": [
-      "I don't eat, but ice cream and cake are very popular!",
-      "Many people love chocolate and cookies.",
-      "Desserts are sweet and delicious, but I can't taste them myself."
-    ]
-  },
-  {
-    "input": "can you tell me a sports fact",
-    "output": [
-      "The Olympic Games were originally a religious festival in ancient Greece.",
-      "Basketball was invented by James Naismith in 1891.",
-      "Soccer is the most popular sport in the world."
-    ]
-  },
-  {
-    "input": "what's your favorite color combination",
-    "output": [
-      "I don't have preferences, but blue and white are often seen together.",
-      "Many people like black and gold as a color combo.",
-      "Color combinations can be very creative!"
-    ]
-  },
-  {
-    "input": "can you tell me a technology fact",
-    "output": [
+      "The first computer virus was created in 1983.",
+      "ENIAC, one of the earliest computers, weighed over 27 tons!",
+      "TYPEWRITER is the longest word you can type using only the top row of a keyboard.",
+      "The first 1GB hard drive weighed over 500 pounds!",
       "The first email was sent in 1971.",
       "There are more mobile devices in the world than people.",
       "The first website is still online and can be visited today."
     ]
   },
   {
-    "input": "what's your favorite season of the year",
+    "input": "what's your favorite thing about travel",
     "output": [
-      "I don't experience seasons, but many people love spring and autumn.",
-      "Summer is popular for vacations, and winter for holidays.",
-      "Every season has something special about it."
+      "Travel lets you explore new places and cultures!",
+      "I love how travel can broaden your perspective.",
+      "Traveling helps people make unforgettable memories.",
+      "Travel is a great way to learn new languages and try new foods.",
+      "Meeting new people is one of the best parts of traveling.",
+      "Travel can inspire creativity and new ideas.",
+      "Seeing famous landmarks in person is exciting!",
+      "Traveling can help you appreciate your own home even more."
     ]
   },
   {
-    "input": "can you tell me a math fact",
+    "input": "can you tell me a fact about the human body",
     "output": [
-      "Zero is the only number that can't be represented in Roman numerals.",
-      "A googol is the number 1 followed by 100 zeros.",
-      "The Fibonacci sequence appears in nature, like in pinecones and sunflowers."
+      "The human body has 206 bones.",
+      "Your heart beats about 100,000 times a day.",
+      "The human brain is sometimes more active when you're asleep than when you're awake.",
+      "Your skin is the largest organ in your body.",
+      "Humans share 60% of their DNA with bananas!",
+      "The average adult has about 5 liters of blood.",
+      "Your nose can remember 50,000 different scents.",
+      "The strongest muscle in the body is the tongue."
     ]
   },
   {
-    "input": "what's your favorite board game",
+    "input": "can you tell me a fact about dogs",
     "output": [
-      "I don't play games, but chess and Monopoly are very popular.",
-      "Many people enjoy Scrabble and Settlers of Catan.",
-      "Board games are a great way to have fun with friends and family."
+      "Dogs have a sense of smell that is 40 times better than humans.",
+      "A dog's nose print is as unique as a human fingerprint.",
+      "Dogs can learn more than 1000 words and gestures.",
+      "The Basenji dog is known for not barking.",
+      "Dalmatian puppies are born completely white.",
+      "Dogs sweat through their paws.",
+      "Greyhounds can run up to 45 miles per hour!",
+      "The Labrador Retriever is the most popular dog breed in many countries."
     ]
   },
   {
-    "input": "can you tell me a language fact",
+    "input": "what's your favorite thing about movies",
     "output": [
-      "There are over 7,000 languages spoken in the world today.",
-      "The longest word in English has 189,819 letters and takes over three hours to pronounce.",
-      "Mandarin Chinese is the most spoken language in the world."
+      "Movies can transport you to different worlds and spark your imagination!",
+      "I love how movies bring people together for shared experiences.",
+      "Movies are a great way to tell stories and express creativity.",
+      "Movies can make you laugh, cry, or think deeply.",
+      "Animated movies are fun for all ages.",
+      "Watching movies is a popular way to relax.",
+      "Movies can inspire people to follow their dreams.",
+      "There are movies for every mood and interest!"
     ]
   },
   {
-    "input": "what's your favorite movie genre",
+    "input": "can you tell me a fact about computers",
     "output": [
-      "I don't watch movies, but action and comedy are very popular genres.",
-      "Many people enjoy science fiction and fantasy films.",
-      "Every genre has its own unique appeal."
+      "The first computer mouse was made of wood.",
+      "The first computer virus was created in 1983.",
+      "ENIAC, one of the earliest computers, weighed over 27 tons!",
+      "TYPEWRITER is the longest word you can type using only the top row of a keyboard.",
+      "The first 1GB hard drive weighed over 500 pounds!",
+      "The first email was sent in 1971.",
+      "There are more mobile devices in the world than people.",
+      "The first website is still online and can be visited today."
     ]
   },
   {
-    "input": "can you tell me a literature fact",
+    "input": "what's your favorite thing about travel",
     "output": [
-      "William Shakespeare invented over 1,700 words.",
-      "The first novel ever written is considered to be 'The Tale of Genji' from Japan.",
-      "The longest novel ever written is 'In Search of Lost Time' by Marcel Proust."
+      "Travel lets you explore new places and cultures!",
+      "I love how travel can broaden your perspective.",
+      "Traveling helps people make unforgettable memories.",
+      "Travel is a great way to learn new languages and try new foods.",
+      "Meeting new people is one of the best parts of traveling.",
+      "Travel can inspire creativity and new ideas.",
+      "Seeing famous landmarks in person is exciting!",
+      "Traveling can help you appreciate your own home even more."
     ]
   },
   {
-    "input": "what's your favorite tv show",
+    "input": "can you tell me a fact about the human body",
     "output": [
-      "I don't watch TV, but many people love Friends and The Simpsons.",
-      "Popular shows include Game of Thrones and Breaking Bad.",
-      "TV shows are a great way to relax, but I can't watch them myself."
-    ]
-  },
-  {
-    "input": "can you tell me a psychology fact",
-    "output": [
-      "Your brain is sometimes more active when you're asleep than when you're awake.",
-      "People are more likely to remember the first and last items in a list.",
-      "Smiling can trick your brain into feeling happier."
-    ]
-  },
-  {
-    "input": "what's your favorite city",
-    "output": [
-      "I don't have favorites, but many people love Paris and New York.",
-      "Cities like Tokyo and London are famous worldwide.",
-      "Every city has its own unique charm."
-    ]
-  },
-  {
-    "input": "can you tell me a travel fact",
-    "output": [
-      "The shortest commercial flight in the world lasts just 57 seconds.",
-      "France is the most visited country in the world.",
-      "The Great Barrier Reef is the largest living structure on Earth."
-    ]
-  },
-  {
-    "input": "what's your favorite animal sound",
-    "output": [
-      "I don't have favorites, but cats meowing and dogs barking are very familiar sounds.",
-      "Birdsong is often considered relaxing.",
-      "Animal sounds are fascinating, but I can't hear them myself."
-    ]
-  },
-  {
-    "input": "can you tell me a fashion fact",
-    "output": [
-      "The first fashion magazine was published in Germany in 1586.",
-      "Jeans were invented in 1873 by Jacob Davis and Levi Strauss.",
-      "High heels were originally worn by men in the 10th century."
-    ]
-  },
-  {
-    "input": "what's your favorite thing to do",
-    "output": [
-      "I love helping people!",
-      "Assisting you is my favorite thing.",
-      "I'm always here to help with anything you need."
-    ]
-  },
-  {
-    "input": "can you tell me a food fact",
-    "output": [
-      "Honey never spoils. Archaeologists have found edible honey in ancient tombs.",
-      "Tomatoes are fruits, not vegetables.",
-      "Apples float in water because they are 25% air."
-    ]
-  },
-  {
-    "input": "what's your favorite quote about life",
-    "output": [
-      "'Life is what happens when you're busy making other plans.' - John Lennon",
-      "'The purpose of our lives is to be happy.' - Dalai Lama",
-      "'In the end, it's not the years in your life that count. It's the life in your years.' - Abraham Lincoln"
-    ]
-  },
-  {
-    "input": "can you tell me a health fact",
-    "output": [
-      "Drinking water can help improve your mood.",
-      "Laughter really is good for your health.",
-      "Walking just 30 minutes a day can improve your health."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about humans",
-    "output": [
-      "I admire human creativity and curiosity!",
-      "Humans are amazing at solving problems.",
-      "I think the kindness people show each other is wonderful."
-    ]
-  },
-  {
-    "input": "can you tell me a random joke",
-    "output": [
-      "Why did the math book look sad? Because it had too many problems!",
-      "Why can't you give Elsa a balloon? Because she will let it go!",
-      "Why did the bicycle fall over? Because it was two-tired!"
-    ]
-  },
-  {
-    "input": "what's your favorite way to relax",
-    "output": [
-      "I don't relax, but many people enjoy reading or listening to music.",
-      "Relaxation is important! Some people meditate or take walks.",
-      "Everyone has their own way to unwind. What's yours?"
-    ]
-  },
-  {
-    "input": "can you tell me a fact about the ocean",
-    "output": [
-      "The Pacific Ocean is the largest and deepest ocean on Earth.",
-      "More than 80% of the ocean is unexplored.",
-      "The blue whale is the largest animal to have ever lived, and it lives in the ocean."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about the internet",
-    "output": [
-      "The internet connects people all over the world!",
-      "It's a great source of information and entertainment.",
-      "I love how the internet makes learning accessible to everyone."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about trees",
-    "output": [
-      "Trees are the longest-living organisms on Earth.",
-      "A single tree can absorb as much as 48 pounds of carbon dioxide per year.",
-      "There are over 60,000 known species of trees."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about technology",
-    "output": [
-      "Technology helps people solve problems and connect with each other.",
-      "I think it's amazing how technology keeps advancing.",
-      "Technology makes life easier and more interesting!"
-    ]
-  },
-  {
-    "input": "can you tell me a fact about the sun",
-    "output": [
-      "The sun is about 4.6 billion years old.",
-      "It takes about 8 minutes for sunlight to reach Earth.",
-      "The sun is so big that about 1.3 million Earths could fit inside it."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about learning",
-    "output": [
-      "Learning helps us grow and discover new things!",
-      "I love that there's always something new to learn.",
-      "Learning is a lifelong adventure."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about the moon",
-    "output": [
-      "The moon is Earth's only natural satellite.",
-      "The same side of the moon always faces Earth.",
-      "There is no wind or atmosphere on the moon."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about science",
-    "output": [
-      "Science helps us understand the world around us.",
-      "I love how science is always asking questions.",
-      "Science leads to amazing discoveries!"
-    ]
-  },
-  {
-    "input": "can you tell me a fact about history",
-    "output": [
-      "The first written language was Sumerian, developed around 3500 BC.",
-      "The Great Fire of London in 1666 destroyed most of the city.",
-      "The ancient Egyptians built the pyramids as tombs for their pharaohs."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about art",
-    "output": [
-      "Art allows people to express themselves creatively.",
-      "I think art makes the world more beautiful.",
-      "Art comes in many forms, from painting to music to dance."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about animals",
-    "output": [
-      "A group of crows is called a murder.",
-      "Elephants are the only animals that can't jump.",
-      "Giraffes have the same number of neck vertebrae as humans: seven."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about books",
-    "output": [
-      "Books can take you on amazing adventures.",
-      "Reading helps you learn and grow.",
-      "Books are a window to new worlds."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about plants",
-    "output": [
-      "Bamboo is the fastest-growing plant in the world.",
-      "Some plants can live for thousands of years.",
-      "Sunflowers can grow up to 12 feet tall."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about music",
-    "output": [
-      "Music can change your mood and inspire you.",
-      "I love how music brings people together.",
-      "Music is a universal language."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about birds",
-    "output": [
-      "Some birds can sleep while flying.",
-      "The ostrich is the largest bird in the world.",
-      "Hummingbirds are the only birds that can fly backwards."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about math",
-    "output": [
-      "Math helps us solve problems and understand patterns.",
-      "I think math is the language of the universe.",
-      "Math is everywhere, from nature to technology."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about insects",
-    "output": [
-      "There are more than 1 million species of insects.",
-      "Ants can lift objects 50 times their own body weight.",
-      "Butterflies taste with their feet."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about sports",
-    "output": [
-      "Sports bring people together and encourage teamwork.",
-      "I love how sports inspire people to do their best.",
-      "Sports are a fun way to stay active and healthy."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about reptiles",
-    "output": [
-      "Some lizards can detach their tails to escape predators.",
-      "Crocodiles have been around since the time of the dinosaurs.",
-      "Turtles can live for over 100 years."
-    ]
-  },
-  {
-    "input": "what's your favorite thing about food",
-    "output": [
-      "Food brings people together and is a big part of culture.",
-      "I think food is fascinating because of all the flavors and recipes.",
-      "Food is essential for life and can be very creative!"
+      "The human body has 206 bones.",
+      "Your heart beats about 100,000 times a day.",
+      "The human brain is sometimes more active when you're asleep than when you're awake.",
+      "Your skin is the largest organ in your body.",
+      "Humans share 60% of their DNA with bananas!",
+      "The average adult has about 5 liters of blood.",
+      "Your nose can remember 50,000 different scents.",
+      "The strongest muscle in the body is the tongue."
     ]
   }
 ]
