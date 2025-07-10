@@ -154,7 +154,7 @@ async function generateResponse(inputText) {
   ];
   const capitalMatch = inputText.match(/capital of ([a-z]+)/i);
   if (capitalMatch && planetList.includes(capitalMatch[1].toLowerCase())) {
-    return `${capitalMatch[1][0].toUpperCase() + capitalMatch[1].slice(1)} is a planet, not a country!`;
+    return `${capitalMatch[1][0].toUpperCase() + capitalMatch[1].slice(1)} is a planet, not a country, so technically it doesn't have a capital.`;
   }
   // Math problem detection
   const mathResult = trySolveMath(inputText);

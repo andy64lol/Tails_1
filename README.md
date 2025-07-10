@@ -1,10 +1,10 @@
 # Tails_1
 
-A simple NLP AI model using brain.js.
+A simple NLP AI model using brain.js, TensorFlow.js, natural, and mathjs.
 
 ## Description
 
-Tails_1.js is a lightweight natural language processing AI built with [brain.js](https://github.com/BrainJS/brain.js) and [compromise](https://github.com/spencermountain/compromise). It uses a dynamic vocabulary and vectorization to train a neural network on input-output pairs stored in a JSON database. The AI supports fuzzy matching with Levenshtein distance for typo tolerance and can learn new input-output pairs dynamically.
+Tails_1.js is a lightweight natural language processing AI built with [TensorFlow.js](https://www.tensorflow.org/js), [natural](https://github.com/NaturalNode/natural), [mathjs](https://mathjs.org/), and [compromise](https://github.com/spencermountain/compromise). It uses a dynamic vocabulary and vectorization to train a neural network on input-output pairs stored in a JSON database. The AI supports fuzzy matching with Levenshtein distance for typo tolerance and can learn new input-output pairs dynamically. Math problem solving is enhanced with mathjs for robust evaluation.
 
 ## Installation
 
@@ -13,6 +13,12 @@ Tails_1.js is a lightweight natural language processing AI built with [brain.js]
 
 ```bash
 npm install
+```
+
+3. (Optional but recommended) Install TensorFlow.js Node backend for better performance:
+
+```bash
+npm install @tensorflow/tfjs-node
 ```
 
 ## Usage
@@ -49,10 +55,11 @@ node Tails_1.js learn '[{"input":"hi","output":["hello","hey"]},{"input":"bye","
 
 ## Features
 
-- **NLP with brain.js and compromise:** Combines neural networks with natural language processing for better understanding.
+- **NLP with TensorFlow.js, natural, mathjs, and compromise:** Combines deep learning, natural language processing, and math evaluation for better understanding and capabilities.
 - **Dynamic Vocabulary and Vectorization:** Automatically builds vocabulary from the database and converts text to vectors for training.
 - **Fuzzy Matching:** Uses Levenshtein distance and shared word similarity to find the best matching response even with typos or variations.
 - **Persistent Learning:** Stores learned pairs in `db.json` for future use.
+- **Enhanced Math Problem Solving:** Uses mathjs for robust math expression evaluation.
 
 ## Author
 
