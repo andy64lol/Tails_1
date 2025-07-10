@@ -1,4 +1,6 @@
-const brain = require("brain.js");
+const tf = require('@tensorflow/tfjs');
+const natural = require('natural');
+const math = require('mathjs');
 const fs = require("fs");
 const nlp = require('compromise');
 
@@ -41,8 +43,8 @@ function textToVector(text) {
 
 // === Training Prep ===
 let trainingData;
-let net;
-function trainIfNeeded() {
+let model;
+async function trainIfNeeded() {
   if (!trainingData) {
     trainingData = db.map(pair => ({
       input: textToVector(pair.input),
@@ -51,14 +53,21 @@ function trainIfNeeded() {
       ),
     }));
   }
-  if (!net) {
-    net = new brain.NeuralNetwork({ hiddenLayers: [8] });
+  if (!model) {
+    // Define a simple sequential model with one hidden layer
+    model = tf.sequential();
+    model.add(tf.layers.dense({inputShape: [vocabulary.length], units: 8, activation: 'relu'}));
+    model.add(tf.layers.dense({units: vocabulary.length, activation: 'sigmoid'}));
+    model.compile({optimizer: 'adam', loss: 'binaryCrossentropy'});
     if (trainingData.length > 0) {
-      net.train(trainingData, {
-        log: false,
-        iterations: 1000,
-        errorThresh: 0.01,
+      const inputs = tf.tensor2d(trainingData.map(d => d.input));
+      const outputs = tf.tensor2d(trainingData.map(d => d.output));
+      await model.fit(inputs, outputs, {
+        epochs: 100,
+        verbose: 0
       });
+      inputs.dispose();
+      outputs.dispose();
     }
   }
 }
@@ -66,59 +75,90 @@ trainIfNeeded();
 
 // === NLP-enhanced Matching ===
 function normalize(text) {
-  // Lowercase, remove punctuation, and lemmatize
+  // Use natural's WordNet for lemmatization or fallback to compromise normalization
+  // For simplicity, keep compromise normalization here
   return nlp(text).normalize({punctuation:true, whitespace:true, case:true}).out('text');
 }
 
 function levenshtein(a, b) {
-  if (a.length === 0) return b.length;
-  if (b.length === 0) return a.length;
-  const matrix = [];
-  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
-  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      if (b.charAt(i - 1) === a.charAt(j - 1)) {
-        matrix[i][j] = matrix[i - 1][j - 1];
-      } else {
-        matrix[i][j] = Math.min(
-          matrix[i - 1][j - 1] + 1,
-          matrix[i][j - 1] + 1,
-          matrix[i - 1][j] + 1
-        );
-      }
+  return natural.LevenshteinDistance(a, b);
+}
+
+// === Synonym Expansion ===
+const synonymMap = {
+  tell: ["say", "share", "give", "show", "reveal", "inform"],
+  fact: ["information", "detail", "data", "truth"],
+  about: ["regarding", "concerning", "on", "related to"],
+  can: ["could", "would", "will", "may"],
+  please: ["kindly", "would you", "could you"],
+  // Add more as needed
+};
+
+function expandSynonyms(tokens) {
+  let expanded = new Set(tokens);
+  tokens.forEach(token => {
+    if (synonymMap[token]) {
+      synonymMap[token].forEach(syn => expanded.add(syn));
     }
-  }
-  return matrix[b.length][a.length];
+  });
+  return Array.from(expanded);
+}
+
+function jaccardSimilarity(aTokens, bTokens) {
+  const setA = new Set(aTokens);
+  const setB = new Set(bTokens);
+  const intersection = new Set([...setA].filter(x => setB.has(x)));
+  const union = new Set([...setA, ...setB]);
+  return intersection.size / union.size;
 }
 
 function bestMatch(inputText) {
   const normInput = normalize(inputText);
+  const inputTokens = expandSynonyms(tokenize(normInput));
   let best = null;
   let bestScore = 0;
   let bestLev = Infinity;
+  let bestOverlap = 0;
   db.forEach(pair => {
     const normDb = normalize(pair.input);
-    // Simple similarity: count shared words
-    const inputWords = new Set(normInput.split(' '));
-    const dbWords = new Set(normDb.split(' '));
-    const shared = [...inputWords].filter(w => dbWords.has(w)).length;
-    const score = shared / Math.max(inputWords.size, dbWords.size);
+    const dbTokens = expandSynonyms(tokenize(normDb));
+    // Jaccard similarity for paraphrase tolerance
+    const score = jaccardSimilarity(inputTokens, dbTokens);
     // Levenshtein distance for typo-tolerance
     const lev = levenshtein(normInput, normDb);
-    if (score > bestScore || (score === bestScore && lev < bestLev)) {
+    // Keyword overlap
+    const overlap = inputTokens.filter(t => dbTokens.includes(t)).length;
+    if (
+      (score > bestScore) ||
+      (score === bestScore && overlap > bestOverlap) ||
+      (score === bestScore && overlap === bestOverlap && lev < bestLev)
+    ) {
       bestScore = score;
       bestLev = lev;
       best = pair;
+      bestOverlap = overlap;
     }
   });
-  // Accept if similarity is reasonable or Levenshtein is very close
-  if (bestScore > 0.25 || bestLev <= 2) return best;
+  // Require a much higher similarity and overlap for a match
+  if (bestScore > 0.45 && bestOverlap >= 2) return best;
+  if (bestLev <= 2 && bestOverlap >= 2) return best;
   return null;
 }
 
 // === Generate Reply ===
-function generateResponse(inputText) {
+async function generateResponse(inputText) {
+  // Special sanity check for questions about the capital of planets or celestial bodies
+  const planetList = [
+    'mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto',
+    'sun', 'moon', 'io', 'europa', 'ganymede', 'callisto', 'titan', 'ceres', 'eris', 'haumea', 'makemake'
+  ];
+  const capitalMatch = inputText.match(/capital of ([a-z]+)/i);
+  if (capitalMatch && planetList.includes(capitalMatch[1].toLowerCase())) {
+    return `${capitalMatch[1][0].toUpperCase() + capitalMatch[1].slice(1)} is a planet, not a country!`;
+  }
+  // Math problem detection
+  const mathResult = trySolveMath(inputText);
+  if (mathResult) return mathResult;
   // Fast exact/normalized match
   const normInput = normalize(inputText);
   let match = normalizedMap[normInput];
@@ -132,16 +172,31 @@ function generateResponse(inputText) {
       return match.output;
     }
   }
-  // Fallback to neural net
-  trainIfNeeded();
-  const inputVec = textToVector(inputText);
-  const outputVec = net.run(inputVec);
-  const tokens = outputVec
-    .map((value, i) => ({ word: vocabulary[i], value }))
-    .filter(obj => obj.value > 0.3)
-    .sort((a, b) => b.value - a.value)
-    .map(obj => obj.word);
-  return tokens.join(" ");
+  // Fallback: always return a clear message for unknowns
+  return "I don't know the answer to that yet.";
+}
+
+// === Math Problem Detection & Solving ===
+function trySolveMath(inputText) {
+  // Use mathjs to evaluate math expressions
+  try {
+    // Replace words with operators for mathjs compatibility
+    let expr = inputText.toLowerCase();
+    expr = expr.replace(/plus|add(ed)? to/g, '+');
+    expr = expr.replace(/minus|subtract(ed)?( from)?/g, '-');
+    expr = expr.replace(/times|multipl(y|ied)? by|x/g, '*');
+    expr = expr.replace(/divided by|over|÷/g, '/');
+    expr = expr.replace(/to the power of|raised to|\^/g, '^');
+    // Remove non-math characters except digits, operators, parentheses, decimal points, and spaces
+    expr = expr.replace(/[^0-9+\-*/^(). ]/g, '');
+    const result = math.evaluate(expr);
+    if (result !== undefined) {
+      return `Result: ${result}`;
+    }
+  } catch (e) {
+    // Ignore errors and fallback to old method
+  }
+  return null;
 }
 
 // === Learn New Pair ===
@@ -179,7 +234,7 @@ function learn(input, output) {
   });
   // Invalidate training cache
   trainingData = undefined;
-  net = undefined;
+  model = undefined;
   fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
   console.log("Learned:", input, "=>", outArr);
 }
@@ -212,8 +267,9 @@ if (args[0] === "learn") {
   }
 } else if (args.length > 0) {
   const inputText = args.join(" ");
-  const response = generateResponse(inputText);
-  console.log("AI:", response || "(I don't know yet)");
+  generateResponse(inputText).then(response => {
+    console.log("AI:", response || "(I don't know yet)");
+  });
 } else {
   console.log("Usage:\n  node Tails_1.js learn 'hi' 'hello'\n  node Tails_1.js 'your input'");
 }

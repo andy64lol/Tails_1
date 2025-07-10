@@ -521,82 +521,15 @@
       "A lightning bolt is five times hotter than the surface of the sun.",
       "Honey never spoils and can last thousands of years.",
       "Octopuses have three hearts.",
-      "Some metals, like gallium, can melt in your hand."
-    ]
-  },
-  {
-    "input": "what's your favorite subject",
-    "output": [
-      "I enjoy all subjects, but I'm especially good at science and technology!",
-      "I don't have preferences, but I can help with any subject you like.",
-      "Every subject has something interesting to offer!",
-      "Math is fascinating for its patterns and logic.",
-      "History teaches us about the past and how we got here.",
-      "Art is a wonderful way to express creativity.",
-      "Learning languages opens up new worlds!"
-    ]
-  },
-  {
-    "input": "can you help me with homework",
-    "output": [
-      "Of course! What subject do you need help with?",
-      "I'm here to help with your homework. What are you working on?",
-      "Let me know your homework question and I'll do my best to assist.",
-      "I can help explain concepts or check your answers.",
-      "Homework is a great way to practice what you've learned.",
-      "If you get stuck, just ask me for a hint!",
-      "I'm always here to help you learn."
-    ]
-  },
-  {
-    "input": "what's your favorite planet",
-    "output": [
-      "I don't have favorites, but Earth is special because it's our home.",
-      "Many people are fascinated by Mars and Jupiter.",
-      "All planets are unique, but Earth is where we live!",
-      "Saturn is famous for its beautiful rings.",
-      "Venus is the hottest planet in our solar system.",
-      "Neptune is known for its deep blue color.",
-      "Mercury is the closest planet to the Sun."
-    ]
-  },
-  {
-    "input": "can you tell me a programming joke",
-    "output": [
-      "Why do programmers prefer dark mode? Because light attracts bugs!",
-      "Why do Java developers wear glasses? Because they don't see sharp.",
-      "How many programmers does it take to change a light bulb? None, that's a hardware problem!",
-      "Why do programmers hate nature? It has too many bugs.",
-      "Why was the computer cold? It left its Windows open!",
-      "Why did the developer go broke? Because he used up all his cache.",
-      "Why do Python programmers wear glasses? Because they can't C."
-    ]
-  },
-  {
-    "input": "what's your favorite fruit",
-    "output": [
-      "I don't eat, but apples and bananas are very popular!",
-      "Many people love strawberries and mangoes.",
-      "Fruits are healthy and delicious, but I can't taste them myself.",
-      "Oranges are a great source of vitamin C!",
-      "Grapes and cherries are sweet and fun to eat.",
-      "Pineapples are tropical and refreshing.",
-      "Watermelon is a favorite summer treat.",
-      "Blueberries are packed with antioxidants.",
-      "Kiwi is small but full of flavor!"
-    ]
-  },
-  {
-    "input": "can you tell me a historical fact",
-    "output": [
-      "The Great Wall of China is over 13,000 miles long.",
-      "The first Olympic Games were held in 776 BC in Greece.",
-      "The printing press was invented by Johannes Gutenberg in the 15th century.",
-      "The Titanic sank in 1912 after hitting an iceberg.",
-      "The Berlin Wall fell in 1989, symbolizing the end of the Cold War.",
-      "The pyramids of Egypt are more than 4,000 years old.",
-      "The Magna Carta was signed in 1215.",
-      "The Wright brothers made the first powered flight in 1903."
+      "Some metals, like gallium, can melt in your hand.",
+      "A day on Venus is longer than its year.",
+      "Neutron stars can spin at a rate of 600 rotations per second!",
+      "There are more stars in the universe than grains of sand on Earth.",
+      "The largest volcano in the solar system is on Mars.",
+      "A spoonful of a neutron star would weigh about a billion tons.",
+      "The footprints on the Moon will remain for millions of years.",
+      "The human brain is sometimes more active when you're asleep than when you're awake.",
+      "Some turtles can breathe through their butts."
     ]
   },
   {
@@ -652,68 +585,161 @@
     ]
   },
   {
-    "input": "can you tell me a fact about dogs",
+    "input": "can you tell me a fact about dinosaurs",
+    "output": [
+      "Dinosaurs lived on Earth for about 165 million years before going extinct.",
+      "The word 'dinosaur' means 'terrible lizard', but dinosaurs aren't actually lizards!",
+      "Some dinosaurs, like Argentinosaurus, were over 100 feet long!",
+      "The smallest known dinosaur was the size of a chicken.",
+      "Many scientists believe that modern birds are descendants of dinosaurs.",
+      "The Tyrannosaurus rex had teeth up to 12 inches long!",
+      "Some dinosaurs had feathers, not just scales.",
+      "The Stegosaurus had a brain the size of a walnut.",
+      "Triceratops had three horns and a large frill to protect its neck."
+    ]
+  },
+  {
+    "input": "can you tell me a random cat fact",
+    "output": [
+      "Unlike dogs, cats do not have a sweet tooth. Scientists believe this is due to a mutation in a key taste receptor.",
+      "When a cat chases its prey, it keeps its head level. Dogs and humans bob their heads up and down.",
+      "The technical term for a cat’s hairball is a ‘bezoar.’",
+      "A group of cats is called a ‘clowder.’",
+      "A cat can’t climb head first down a tree because every claw on a cat’s paw points the same way. To get down from a tree, a cat must back down.",
+      "Cats make about 100 different sounds. Dogs make only about 10.",
+      "Every year, nearly four million cats are eaten in Asia.",
+      "There are more than 500 million domestic cats in the world, with approximately 40 recognized breeds.",
+      "Approximately 24 cat skins can make a coat.",
+      "The oldest known pet cat was found in a 9,500-year-old grave on Cyprus, predating Egyptian art by 4,000 years.",
+      "During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned, leading to a rat population explosion.",
+      "During the Middle Ages, cats were associated with witchcraft, and on St. John’s Day, people would toss them into bonfires or from church towers.",
+      "The first cat in space was a French cat named Felicette (a.k.a. ‘Astrocat’) in 1963. She survived the trip.",
+      "The group of words associated with cat (catt, cath, chat, katze) stem from the Latin catus, meaning domestic cat.",
+      "The term ‘puss’ is the root of the principal word for ‘cat’ in Romanian and other languages, possibly imitating the hissing sound used to get a cat’s attention.",
+      "Approximately 40,000 people are bitten by cats in the U.S. annually.",
+      "Cats are the world's most popular pets, outnumbering dogs by as many as three to one.",
+      "Cats are North America’s most popular pets: there are 73 million cats compared to 63 million dogs. Over 30% of households in North America own a cat.",
+      "According to Hebrew legend, Noah prayed to God for help protecting food on the ark from rats. God made the lion sneeze, and out popped a cat.",
+      "A cat’s hearing is better than a dog’s and can hear high-frequency sounds up to two octaves higher than a human.",
+      "A cat can travel at a top speed of approximately 31 mph (49 km) over a short distance.",
+      "A cat rubs against people not only to be affectionate but also to mark territory with scent glands around its face, tail, and paws.",
+      "Researchers are unsure exactly how a cat purrs, but most believe it’s by vibrating vocal folds deep in the throat.",
+      "When a family cat died in ancient Egypt, family members would mourn by shaving off their eyebrows and holding elaborate funerals.",
+      "In 1888, more than 300,000 mummified cats were found in an Egyptian cemetery and used for fertilizer.",
+      "Most cats give birth to a litter of between one and nine kittens. The largest known litter was 19 kittens, of which 15 survived.",
+      "Smuggling a cat out of ancient Egypt was punishable by death. Phoenician traders eventually succeeded and sold felines to rich people in Athens and other cities.",
+      "The earliest ancestor of the modern cat lived about 30 million years ago, called Proailurus, meaning ‘first cat’ in Greek.",
+      "The biggest wildcat today is the Siberian Tiger, which can be more than 12 feet long and weigh up to 700 pounds.",
+      "Cats have 300 million neurons; dogs have about 160 million.",
+      "A cat’s brain is biologically more similar to a human brain than to a dog’s, with identical regions responsible for emotions.",
+      "Many Egyptians worshipped the goddess Bast, who had a woman’s body and a cat’s head.",
+      "Mohammed loved cats and reportedly his favorite cat, Muezza, was a tabby. Legend says tabby cats have an ‘M’ for Mohammed on their heads.",
+      "In Britain and Australia, black cats are considered lucky, unlike in North America and parts of Europe.",
+      "The most popular pedigreed cat is the Persian cat, followed by the Maine Coon and Siamese cats.",
+      "The smallest pedigreed cat is a Singapura, weighing just 4 lbs, while the largest is the Maine Coon, weighing up to 25 lbs.",
+      "Some cats have survived falls of over 65 feet due to their ‘righting reflex.’ Even cats without a tail have this ability.",
+      "Some Siamese cats appear cross-eyed due to the way their brain nerves connect to their eyes, causing double vision.",
+      "The word ‘tabby’ comes from Attabiyah, a neighborhood in Baghdad, Iraq, known for its wavy silk patterns.",
+      "Cats have ‘nine lives’ thanks to a flexible spine and powerful leg and back muscles."
+    ]
+  },
+  {
+    "input": "can you tell me a random dog fact",
     "output": [
       "Dogs have a sense of smell that is 40 times better than humans.",
-      "A dog's nose print is as unique as a human fingerprint.",
+      "A dog’s nose print is as unique as a human fingerprint.",
       "Dogs can learn more than 1000 words and gestures.",
       "The Basenji dog is known for not barking.",
       "Dalmatian puppies are born completely white.",
       "Dogs sweat through their paws.",
       "Greyhounds can run up to 45 miles per hour!",
-      "The Labrador Retriever is the most popular dog breed in many countries."
+      "The Labrador Retriever is the most popular dog breed in many countries.",
+      "Dogs curl up in a ball when sleeping to protect their organs.",
+      "Three dogs survived the sinking of the Titanic.",
+      "Dogs have about 1,700 taste buds. Humans have about 9,000.",
+      "The world’s smallest dog was a Chihuahua named Miracle Milly, standing 3.8 inches tall.",
+      "Dogs’ noses can sense heat and thermal radiation.",
+      "The Saluki is the world’s oldest dog breed, dating back to 329 B.C.",
+      "Dogs can hear 4 times as far as humans.",
+      "A Bloodhound’s sense of smell can be used as evidence in court.",
+      "Dogs have been our companions for at least 14,000 years.",
+      "The Basenji is the only barkless dog.",
+      "Dogs have three eyelids.",
+      "The tallest dog ever was a Great Dane named Zeus, measuring 44 inches tall at the shoulder."
     ]
   },
   {
-    "input": "what's your favorite thing about movies",
+    "input": "can you tell me a random bird fact",
     "output": [
-      "Movies can transport you to different worlds and spark your imagination!",
-      "I love how movies bring people together for shared experiences.",
-      "Movies are a great way to tell stories and express creativity.",
-      "Movies can make you laugh, cry, or think deeply.",
-      "Animated movies are fun for all ages.",
-      "Watching movies is a popular way to relax.",
-      "Movies can inspire people to follow their dreams.",
-      "There are movies for every mood and interest!"
+      "There are around 10,000 different species of birds worldwide.",
+      "The smallest bird is the bee hummingbird, which weighs less than a penny.",
+      "Ostriches are the largest birds and can run up to 45 miles per hour.",
+      "Some birds, like the Arctic tern, migrate thousands of miles each year.",
+      "Penguins are birds that cannot fly but are excellent swimmers.",
+      "The lyrebird can mimic almost any sound it hears, including chainsaws and camera shutters.",
+      "Flamingos get their pink color from the food they eat.",
+      "The fastest bird is the peregrine falcon, which can dive at over 200 mph.",
+      "Some parrots can live for more than 80 years.",
+      "The wandering albatross has the largest wingspan of any bird, up to 11 feet.",
+      "The kiwi bird is native to New Zealand and is about the size of a chicken.",
+      "Male emperor penguins incubate eggs on their feet for about two months.",
+      "The common swift can stay airborne for up to 10 months without landing.",
+      "The American woodcock’s eyes are positioned so it can see 360 degrees.",
+      "The African grey parrot is known for its intelligence and ability to mimic speech."
     ]
   },
   {
-    "input": "can you tell me a fact about computers",
+    "input": "can you tell me a random history fact",
     "output": [
-      "The first computer mouse was made of wood.",
-      "The first computer virus was created in 1983.",
-      "ENIAC, one of the earliest computers, weighed over 27 tons!",
-      "TYPEWRITER is the longest word you can type using only the top row of a keyboard.",
-      "The first 1GB hard drive weighed over 500 pounds!",
-      "The first email was sent in 1971.",
-      "There are more mobile devices in the world than people.",
-      "The first website is still online and can be visited today."
+      "The Great Wall of China is over 13,000 miles long.",
+      "The first Olympic Games were held in 776 BC in Greece.",
+      "The printing press was invented by Johannes Gutenberg in the 15th century.",
+      "The Titanic sank in 1912 after hitting an iceberg.",
+      "The Berlin Wall fell in 1989, symbolizing the end of the Cold War.",
+      "The pyramids of Egypt are more than 4,000 years old.",
+      "The Magna Carta was signed in 1215.",
+      "The Wright brothers made the first powered flight in 1903.",
+      "The Rosetta Stone was key to deciphering Egyptian hieroglyphs.",
+      "The Black Death killed an estimated 25 million people in Europe during the 14th century.",
+      "The Declaration of Independence was signed in 1776.",
+      "The Roman Empire lasted for over 1,000 years.",
+      "The Colosseum in Rome could hold up to 80,000 spectators.",
+      "The first manned moon landing was in 1969.",
+      "The Library of Alexandria was one of the largest and most significant libraries of the ancient world."
     ]
   },
   {
-    "input": "what's your favorite thing about travel",
+    "input": "can you tell me a random science fact",
     "output": [
-      "Travel lets you explore new places and cultures!",
-      "I love how travel can broaden your perspective.",
-      "Traveling helps people make unforgettable memories.",
-      "Travel is a great way to learn new languages and try new foods.",
-      "Meeting new people is one of the best parts of traveling.",
-      "Travel can inspire creativity and new ideas.",
-      "Seeing famous landmarks in person is exciting!",
-      "Traveling can help you appreciate your own home even more."
-    ]
-  },
-  {
-    "input": "can you tell me a fact about the human body",
-    "output": [
-      "The human body has 206 bones.",
-      "Your heart beats about 100,000 times a day.",
+      "Water expands when it freezes, which is why ice floats.",
+      "Bananas are berries, but strawberries aren't!",
+      "The Eiffel Tower can be 15 cm taller during hot days due to thermal expansion.",
+      "A lightning bolt is five times hotter than the surface of the sun.",
+      "Honey never spoils and can last thousands of years.",
+      "Octopuses have three hearts.",
+      "Some metals, like gallium, can melt in your hand.",
+      "A day on Venus is longer than its year.",
+      "Neutron stars can spin at a rate of 600 rotations per second!",
+      "There are more stars in the universe than grains of sand on Earth.",
+      "The largest volcano in the solar system is on Mars.",
+      "A spoonful of a neutron star would weigh about a billion tons.",
+      "The footprints on the Moon will remain for millions of years.",
       "The human brain is sometimes more active when you're asleep than when you're awake.",
-      "Your skin is the largest organ in your body.",
-      "Humans share 60% of their DNA with bananas!",
-      "The average adult has about 5 liters of blood.",
-      "Your nose can remember 50,000 different scents.",
-      "The strongest muscle in the body is the tongue."
+      "Some turtles can breathe through their butts."
+    ]
+  },
+  {
+    "input": "can you tell me a random geography fact",
+    "output": [
+      "Mount Everest is the highest mountain in the world, standing at 29,032 feet (8,848 meters).",
+      "The Amazon Rainforest is the largest tropical rainforest, covering over 5.5 million square kilometers.",
+      "Russia is the largest country in the world by land area, spanning over 17 million square kilometers.",
+      "The Sahara Desert is the largest hot desert in the world, covering about 9.2 million square kilometers.",
+      "Lake Baikal in Siberia is the deepest and oldest freshwater lake in the world.",
+      "Africa is home to the Nile River, which is considered the longest river in the world.",
+      "Antarctica is the driest, windiest, and coldest continent on Earth.",
+      "The Great Barrier Reef in Australia is the largest coral reef system in the world.",
+      "Asia is the most populous continent, with over 4.6 billion people."
     ]
   }
 ]
