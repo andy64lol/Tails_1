@@ -7,11 +7,16 @@ function tokenize(text) {
   return text.toLowerCase().split(/\s+/).filter(Boolean);
 }
 
-// === Load database ===
+// === Load database and build cache ===
 const dbPath = "./db.json";
 let db = [];
+let normalizedMap = {};
 try {
   db = JSON.parse(fs.readFileSync(dbPath));
+  // Precompute normalized input map for fast lookup
+  normalizedMap = Object.fromEntries(
+    db.map(pair => [normalize(pair.input), pair])
+  );
 } catch {
   console.warn("No db.json found. Starting with empty DB.");
 }
@@ -35,23 +40,29 @@ function textToVector(text) {
 }
 
 // === Training Prep ===
-const trainingData = db.map(pair => ({
-  input: textToVector(pair.input),
-  output: textToVector(
-    Array.isArray(pair.output) ? pair.output.join(" ") : pair.output
-  ),
-}));
-
-// === Neural Net ===
-const net = new brain.NeuralNetwork({ hiddenLayers: [8] });
-
-if (trainingData.length > 0) {
-  net.train(trainingData, {
-    log: false,
-    iterations: 1000,
-    errorThresh: 0.01,
-  });
+let trainingData;
+let net;
+function trainIfNeeded() {
+  if (!trainingData) {
+    trainingData = db.map(pair => ({
+      input: textToVector(pair.input),
+      output: textToVector(
+        Array.isArray(pair.output) ? pair.output.join(" ") : pair.output
+      ),
+    }));
+  }
+  if (!net) {
+    net = new brain.NeuralNetwork({ hiddenLayers: [8] });
+    if (trainingData.length > 0) {
+      net.train(trainingData, {
+        log: false,
+        iterations: 1000,
+        errorThresh: 0.01,
+      });
+    }
+  }
 }
+trainIfNeeded();
 
 // === NLP-enhanced Matching ===
 function normalize(text) {
@@ -108,20 +119,21 @@ function bestMatch(inputText) {
 
 // === Generate Reply ===
 function generateResponse(inputText) {
-  // Try to find an exact or similar match in db
-  let match = db.find(pair => normalize(pair.input) === normalize(inputText));
+  // Fast exact/normalized match
+  const normInput = normalize(inputText);
+  let match = normalizedMap[normInput];
   if (!match) {
     match = bestMatch(inputText);
   }
   if (match) {
     if (Array.isArray(match.output)) {
-      // Pick a random response from the array
       return match.output[Math.floor(Math.random() * match.output.length)];
     } else {
       return match.output;
     }
   }
   // Fallback to neural net
+  trainIfNeeded();
   const inputVec = textToVector(inputText);
   const outputVec = net.run(inputVec);
   const tokens = outputVec
@@ -146,7 +158,8 @@ function learn(input, output) {
     }
   }
   // Check if input already exists
-  const match = db.find(pair => normalize(pair.input) === normalize(input));
+  const normInput = normalize(input);
+  const match = db.find(pair => normalize(pair.input) === normInput);
   if (match) {
     // Merge arrays, avoid duplicates
     const existing = Array.isArray(match.output) ? match.output : [match.output];
@@ -154,6 +167,8 @@ function learn(input, output) {
   } else {
     db.push({ input, output: outArr });
   }
+  // Update normalizedMap for fast lookup
+  normalizedMap[normInput] = db.find(pair => normalize(pair.input) === normInput);
   // Update vocab
   const newWords = [
     ...tokenize(input),
@@ -162,6 +177,9 @@ function learn(input, output) {
   newWords.forEach(w => {
     if (!vocabulary.includes(w)) vocabulary.push(w);
   });
+  // Invalidate training cache
+  trainingData = undefined;
+  net = undefined;
   fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
   console.log("Learned:", input, "=>", outArr);
 }
