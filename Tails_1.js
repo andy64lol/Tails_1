@@ -5,8 +5,10 @@ const fs = require("fs");
 const nlp = require('compromise');
 
 // === Tokenizer ===
+const tokenizer = new natural.TreebankWordTokenizer();
+
 function tokenize(text) {
-  return text.toLowerCase().split(/\s+/).filter(Boolean);
+  return tokenizer.tokenize(text.toLowerCase());
 }
 
 // === Load database and build cache ===
@@ -36,15 +38,30 @@ let vocabulary = Array.from(
 );
 
 // === Vectorizer ===
+const TfIdf = natural.TfIdf;
+let tfidf = new TfIdf();
+
+function buildTfidf() {
+  tfidf = new TfIdf();
+  db.forEach(pair => {
+    tfidf.addDocument(pair.input.toLowerCase());
+  });
+}
+
 function textToVector(text) {
   const tokens = tokenize(text);
-  return vocabulary.map(word => (tokens.includes(word) ? 1 : 0));
+  const vector = [];
+  vocabulary.forEach(word => {
+    vector.push(tfidf.tfidf(word, tfidf.documents.length - 1));
+  });
+  return vector;
 }
 
 // === Training Prep ===
 let trainingData;
 let model;
 async function trainIfNeeded() {
+  buildTfidf();
   if (!trainingData) {
     trainingData = db.map(pair => ({
       input: textToVector(pair.input),
@@ -54,16 +71,21 @@ async function trainIfNeeded() {
     }));
   }
   if (!model) {
-    // Define a simple sequential model with one hidden layer
+    // Define a deeper sequential model with multiple hidden layers and dropout
     model = tf.sequential();
-    model.add(tf.layers.dense({inputShape: [vocabulary.length], units: 8, activation: 'relu'}));
+    model.add(tf.layers.dense({inputShape: [vocabulary.length], units: 64, activation: 'relu'}));
+    model.add(tf.layers.dropout({rate: 0.3}));
+    model.add(tf.layers.dense({units: 32, activation: 'relu'}));
+    model.add(tf.layers.dropout({rate: 0.3}));
     model.add(tf.layers.dense({units: vocabulary.length, activation: 'sigmoid'}));
     model.compile({optimizer: 'adam', loss: 'binaryCrossentropy'});
     if (trainingData.length > 0) {
       const inputs = tf.tensor2d(trainingData.map(d => d.input));
       const outputs = tf.tensor2d(trainingData.map(d => d.output));
       await model.fit(inputs, outputs, {
-        epochs: 100,
+        epochs: 200,
+        batchSize: 8,
+        validationSplit: 0.2,
         verbose: 0
       });
       inputs.dispose();
@@ -74,9 +96,10 @@ async function trainIfNeeded() {
 trainIfNeeded();
 
 // === NLP-enhanced Matching ===
+const wordnet = new natural.WordNet();
+
 function normalize(text) {
-  // Use natural's WordNet for lemmatization or fallback to compromise normalization
-  // For simplicity, keep compromise normalization here
+  // Use compromise normalization for punctuation, whitespace, and case
   return nlp(text).normalize({punctuation:true, whitespace:true, case:true}).out('text');
 }
 
@@ -86,11 +109,13 @@ function levenshtein(a, b) {
 
 // === Synonym Expansion ===
 const synonymMap = {
-  tell: ["say", "share", "give", "show", "reveal", "inform"],
-  fact: ["information", "detail", "data", "truth"],
-  about: ["regarding", "concerning", "on", "related to"],
-  can: ["could", "would", "will", "may"],
-  please: ["kindly", "would you", "could you"],
+  tell: ["say", "share", "give", "show", "reveal", "inform", "communicate", "express"],
+  fact: ["information", "detail", "data", "truth", "reality", "certainty"],
+  about: ["regarding", "concerning", "on", "related to", "with respect to"],
+  can: ["could", "would", "will", "may", "might", "shall"],
+  please: ["kindly", "would you", "could you", "if you please", "do"],
+  hello: ["hi", "hey", "greetings", "salutations"],
+  bye: ["goodbye", "farewell", "see you", "later"],
   // Add more as needed
 };
 
@@ -140,8 +165,8 @@ function bestMatch(inputText) {
     }
   });
   // Require a much higher similarity and overlap for a match
-  if (bestScore > 0.45 && bestOverlap >= 2) return best;
-  if (bestLev <= 2 && bestOverlap >= 2) return best;
+  if (bestScore > 0.6 && bestOverlap >= 3) return best;
+  if (bestLev <= 1 && bestOverlap >= 3) return best;
   return null;
 }
 

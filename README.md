@@ -63,7 +63,7 @@ node Tails_1.js learn '[{"input":"hi","output":["hello","hey"]},{"input":"bye","
 
 ## Author
 
-andy64lol
+andy64lol3
 
 ## License
 
